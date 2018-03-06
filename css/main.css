@@ -1,12 +1,18 @@
 
 body {  display: flex;  flex-direction: column;}
-hr { margin-top: 0px; margin-bottom: 0px; }
+hr { margin-top: 0px; margin-bottom: 0px; width: 100%; border: 1px solid #eaeaea; border-bottom: none; }
 dl { margin-bottom: 0px; }
 dt, dd { line-height: 1.3em; }
 button { background: none; border: 0px; }
 .nav > li > a { 
  	padding: 10px 20px;
  }
+ .navbar-fixed-top, .navbar-fixed-bottom {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 
  .main dl {
     display: block;
@@ -70,4 +76,19 @@ button.presale_btn {
     margin-top: 70px;
     left: 50%;
     margin-left: -143px;
-}*/
+}
+
+
+.section01 { width: 100%;  margin: 0 auto; background: #f3f9ff;  }
+
+.section01 .inner p { text-align: left; font-size: 14px; }
+.section p.sub_title_line {  text-align: left; margin-top: 10px; margin-bottom: 28px; }
+.section p { text-align: center; }
+.section p.img_content img { margin-top: 60px; }
+
+.section05 { width: 100%;  background-color: #3c4662; }
+.section05 h3 { color:  #fff; }
+
+.section06 { width: 100%;  background-color: #ede9eb;  }
+.section06 dl {  float: left; padding-bottom: 96px; }
+.section .inner { width: 1170px; margin: 0 auto; margin-top: 110px; margin-bottom: 96px; }
