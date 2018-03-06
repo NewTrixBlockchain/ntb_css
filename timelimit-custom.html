@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="./lib/jQuery/jquery-3.3.1.js"></script>
+		<script src="./lib/bct/js/timelimit-custom.js"></script>
+	</head>
+	<body>
+		<h1>HOME</h1>
+
+		<div id="timelimit"></div>
+
+		<script type="text/javascript">
+			setInterval( function() {
+				$("#timelimit").timeLimit({
+					start: new Date(),
+					end: '2018-04-06',
+					closeText: '종료되었습니다.',
+					waitText: '준비중입니다.'
+				});
+			}, 1000 )
+		</script>
+	</body>
+</html>
