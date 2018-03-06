@@ -1,5 +1,5 @@
 
-body { position: relative; }
+body {  display: flex;  flex-direction: column;}
 hr { margin-top: 0px; margin-bottom: 0px; }
 dl { margin-bottom: 0px; }
 dt, dd { line-height: 1.3em; }
@@ -7,6 +7,7 @@ button { background: none; border: 0px; }
 .nav > li > a { 
  	padding: 10px 20px;
  }
+
  .main dl {
     display: block;
     -webkit-margin-before: 0em;
@@ -14,6 +15,7 @@ button { background: none; border: 0px; }
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
+.main .container { margin-bottom: 180px; }
 .main .logo { text-align: right;  }
 .main .motto { text-align: right; position: relative;  z-index: 3; color: #9e9e9e; }
 .main h4 { line-height: 1.4; }
@@ -35,15 +37,15 @@ button { background: none; border: 0px; }
     .conditions dl.done_event { margin-top: 8px; margin-bottom: 7px; }
     .conditions dl.done_event dt  { color: #505050; font-size: 14px; font-weight: normal;  }
     .conditions dl.done_event dd  { color: #505050; font-size: 13px; font-weight: normal;  }
-dl.start_event progress { width: 446px; background-color: #202020; border-radius: 20px; margin-bottom: 3px;  }
-dl.start_event progress::-webkit-progress-bar { width: 446px; background-color: #202020; border-radius: 20px;  }
-dl.start_event progress::-webkit-progress-value { width: 446px; background-color: #a1ef91; border-radius: 20px; }
-dl.start_event progress::-moz-progress-bar { width: 446px; background-color: #202020; border-radius: 20px;  }
+dl.start_event progress { width: 96%; background-color: #202020; border-radius: 20px; margin-bottom: 3px;  }
+dl.start_event progress::-webkit-progress-bar { width: 96%; background-color: #202020; border-radius: 20px;  }
+dl.start_event progress::-webkit-progress-value { width: 96%; background-color: #a1ef91; border-radius: 20px; }
+dl.start_event progress::-moz-progress-bar { width: 96%; background-color: #202020; border-radius: 20px;  }
 
-dl.done_event progress { width: 446px; height: 10px; background-color: #717a6f; border-radius: 20px; margin-bottom: 3px; }
-dl.done_event progress::-webkit-progress-bar { width: 446px; height: 10px;  background-color: #717a6f; border-radius: 20px;  }
-dl.done_event progress::-webkit-progress-value { width: 446px; height: 10px; background-color: #656565; border-radius: 20px; }
-dl.done_event progress::-moz-progress-bar { width: 446px; height: 10px;  background-color: #717a6f; border-radius: 20px;  }
+dl.done_event progress { width: 96%; height: 10px; background-color: #717a6f; border-radius: 20px; margin-bottom: 3px; }
+dl.done_event progress::-webkit-progress-bar {width: 96%; height: 10px;  background-color: #717a6f; border-radius: 20px;  }
+dl.done_event progress::-webkit-progress-value { width: 96%; height: 10px; background-color: #656565; border-radius: 20px; }
+dl.done_event progress::-moz-progress-bar { width: 96%; height: 10px;  background-color: #717a6f; border-radius: 20px;  }
 hr.white_2px { border: 2px solid #fff; border-bottom: none; margin-top: 10px; margin-bottom: 8px; }
 hr.hr_c43a6e { border: 1px solid #e77ba4; border-bottom: none; }
 hr.hr_96244f { border: 1px solid #bb577d; border-bottom: none; }
@@ -65,7 +67,7 @@ button.presale_btn {
     cursor: pointer;
     position: relative;
     z-index: 5;
-    margin-top: 50px;
+    margin-top: 70px;
     left: 50%;
-    margin-left: 143px;
+    margin-left: -143px;
 }*/
