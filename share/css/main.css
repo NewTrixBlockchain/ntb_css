@@ -103,17 +103,17 @@ footer {  width: 100%;  line-height: 74px; text-align: center;  background-color
 
 
 /*login_page*/
-.login_body footer { position: fixed; bottom: 0px; left: 0px; z-index: 3; }
-.main .login_content {  width: 100%;   margin-top: 280px;  min-height: 680px; }
-.main .login_content .login_box { position: relative; z-index: 4; width: 380px; height: 186px; margin: 0 auto; background-color:  rgba(255,255,255,0.7); box-shadow: 8px 8px 12px rgba(21,21,21,0.8); border-radius: 8px;  /*margin-bottom: 22%;*/ }
+
+ .login_content {  width: 100%;   margin-top: 280px;   }
+ .login_content .login_box { position: relative; z-index: 4; width: 380px; height: 186px; margin: 0 auto; background-color:  rgba(255,255,255,0.7); box-shadow: 4px 4px 8px rgba(21,21,21,0.8); border-radius: 8px;   }
     .login_box .inner_box { padding: 26px 40px; }
     .login_box .inner_box table tr { line-height: 36px; }
-    .login_box .inner_box table tr td { font-size: 15px; font-weight: bold;  }
+    .login_box .inner_box table tr td { font-size: 14px; font-weight: bold;  }
     .login_box .inner_box table tr td:first-child { text-align: right; line-height: 30px; padding-right: 12px; }
-    .login_box .inner_box table td input { width: 184px; height: 30px; line-height: 28px; background-color: #1d1d1d;  opacity: 0.8; color: #c4c4c4; padding-left: 6px; font-weight: 500; }
-    .login_box .inner_box hr.login_line { border: 1px solid #4a4a4a; opacity: 0.8; margin-top: 12px; border-bottom: none; }
-    .login_box .inner_box button { width: 260px; height: 30px; border-radius: 2px; background-color: #d60050; margin-top: 10px; color: white; font-weight: bold; margin-left: 20px;  }
-    .login_box .inner_box p { font-size: 12px; text-align: center; }
+    .login_box .inner_box table td input { width: 184px; height: 30px; line-height: 28px; background-color: #dfdfdf;   color: #565656; padding-left: 6px; font-weight: 500; }
+    .login_box .inner_box hr.login_line { border: 1px solid #cecece; opacity: 0.8; margin-top: 8px; border-bottom: none; }
+    .login_box .inner_box button { width: 142px; height: 30px; border-radius: 2px;  margin-top: 8px; color: white; font-weight: bold; margin-left: 6px; }
+    .login_box .inner_box p { font-size: 12px; text-align: center; margin-top: 3px; }
     .login_box .inner_box p span.find_id_pw a { font-weight: bold; color: #2045cf;  }
 
 /*join_page*/
@@ -137,3 +137,5 @@ footer {  width: 100%;  line-height: 74px; text-align: center;  background-color
     .btn_2ea button { width: 156px; height: 32px; line-height: 30px; color: white; font-weight: bold; margin: 0 4px; }
     button.regi { background-color: #eba95a; border: 1px solid #c78b42 ; }
     button.cancel { background-color: #848fa2; border: 1px solid #636f82 ; }
+    button.regi:hover { color: #343434; }
+    button.cancel:hover { color: #343434; }
