@@ -99,3 +99,9 @@ button.presale_btn {
 .section06 dl {  float: left; padding-bottom: 96px; }
 .section .inner { width: 1170px; margin: 0 auto; margin-top: 110px; margin-bottom: 96px; }
 footer {  width: 100%;  line-height: 74px; text-align: center;  background-color: #63304c;  color: #dadada; font-size: 16px; }
+.section07 .inner { margin-top: 50px; margin-bottom: 30px; width: 100%; }
+.section07 .inner  h3 { /*position: relative; left: 50%; margin-left: -120px;*/ margin: 0 auto; text-align: center; color: #fff; width: 240px; padding: 4px 30px;  border-radius: 20px; background-color: #d60050;  }
+.section07 .inner ul { overflow: hidden; width: 50%; margin: 0 auto; margin-top: 40px; }
+.section07 .inner ul li { list-style: none; float: left; margin: 0 auto;  margin-left: 31%;  }
+
+.section07 .inner ul li:first-child { margin-left: 0; }
