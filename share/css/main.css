@@ -61,29 +61,8 @@ dl.done_event progress::-ms-progress-value { width: 96%; height: 10px; backgroun
 hr.white_2px { border: 2px solid #fff; border-bottom: none; margin-top: 10px; margin-bottom: 8px; }
 hr.hr_c43a6e { border: 1px solid #e77ba4; border-bottom: none; }
 hr.hr_96244f { border: 1px solid #bb577d; border-bottom: none; }
-.main .right_content .inner .conditions button { margin: 18px auto; position: relative; left: 50%; margin-left: -22px;   }
-
-button.presale_btn {
-    height: 48px;
-    width: 286px;
-    border-radius: 24px;
-    font-size: 16px;
-    font-weight: 500;
-    text-align: center;
-    font-size: 26px;
-    background-color: #fff ;
-    border: 0;
-    text-transform: uppercase;
-    color: #d60050;
-    box-shadow: 0 10px 10px rgba(12, 0, 51, .15);
-    cursor: pointer;
-    position: relative;
-    z-index: 5;
-    margin-top: 70px;
-    left: 50%;
-    margin-left: -143px;
-}
-
+.main .right_content .inner .conditions button { margin: 18px auto; position: relative; left: 50%; margin-left: -22px;  }
+button.presale_btn { height: 48px; width: 286px; border-radius: 24px; font-size: 16px; font-weight: 500; text-align: center; font-size: 26px; background-color: #fff ; border: 0;  text-transform: uppercase; color: #d60050; box-shadow: 0 10px 10px rgba(12, 0, 51, .15); cursor: pointer; position: relative; z-index: 5; margin-top: 70px; left: 50%;  margin-left: -143px; }
 .section01 { width: 100%;  margin: 0 auto; background: #f3f9ff;  }
 .section01 .inner p { text-align: left; font-size: 14px; }
 .section p.sub_title_line {  text-align: left; margin-top: 10px; margin-bottom: 28px; }
@@ -101,9 +80,23 @@ footer {  width: 100%;  line-height: 74px; text-align: center;  background-color
 .section07 .inner ul li { list-style: none; float: left; margin: 0 auto;  margin-left: 31%;  }
 .section07 .inner ul li:first-child { margin-left: 0; }
 
+@media screen and (min-width: 1640px){
+     
+    }
+    @media screen and (min-width:1421px) and (max-width:1639px){ 
+     
+    }
+    @media screen and (min-width:1170px) and (max-width:1420px){ 
+     
+    }
+
+    @media screen and (min-width:768px) and (max-width:1169px){
+    
+    }
+
+
 
 /*login_page*/
-
  .login_content {  width: 100%;   margin-top: 280px;   }
  .login_content .login_box { position: relative; z-index: 4; width: 380px; height: 186px; margin: 0 auto; background-color:  rgba(255,255,255,0.7); box-shadow: 4px 4px 8px rgba(21,21,21,0.8); border-radius: 8px;   }
     .login_box .inner_box { padding: 26px 40px; }
@@ -113,7 +106,7 @@ footer {  width: 100%;  line-height: 74px; text-align: center;  background-color
     .login_box .inner_box table td input { width: 184px; height: 30px; line-height: 28px; background-color: #dfdfdf;   color: #565656; padding-left: 6px; font-weight: 500; }
     .login_box .inner_box hr.login_line { border: 1px solid #cecece; opacity: 0.8; margin-top: 8px; border-bottom: none; }
     .login_box .inner_box button { width: 142px; height: 30px; border-radius: 2px;  margin-top: 8px; color: white; font-weight: bold; margin-left: 6px; }
-    .login_box .inner_box p { font-size: 12px; text-align: center; margin-top: 3px; }
+    .login_box .inner_box p { font-size: 12px; text-align: center; margin-top: 3px;  }
     .login_box .inner_box p span.find_id_pw a { font-weight: bold; color: #2045cf;  }
 
 /*join_page*/
