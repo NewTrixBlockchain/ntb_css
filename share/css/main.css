@@ -80,19 +80,7 @@ footer {  width: 100%;  line-height: 74px; text-align: center;  background-color
 .section07 .inner ul li { list-style: none; float: left; margin: 0 auto;  margin-left: 31%;  }
 .section07 .inner ul li:first-child { margin-left: 0; }
 
-@media screen and (min-width: 1640px){
-     
-    }
-    @media screen and (min-width:1421px) and (max-width:1639px){ 
-     
-    }
-    @media screen and (min-width:1170px) and (max-width:1420px){ 
-     
-    }
 
-    @media screen and (min-width:768px) and (max-width:1169px){
-    
-    }
 
 
 
