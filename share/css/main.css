@@ -1,5 +1,5 @@
 * { margin: 0; padding: 0; }
-body {  display: flex;  flex-direction: column;}
+body {  display: flex;  flex-direction: column; font-family: 'nanum-gothic','malgun-gothic','gothic' }
 hr { margin-top: 0px; margin-bottom: 0px; width: 100%; border: 1px solid #eaeaea; border-bottom: none; }
 dl { margin-bottom: 0px; }
 dt, dd { line-height: 1.3em; }
@@ -84,17 +84,13 @@ button.presale_btn {
     margin-left: -143px;
 }
 
-
 .section01 { width: 100%;  margin: 0 auto; background: #f3f9ff;  }
-
 .section01 .inner p { text-align: left; font-size: 14px; }
 .section p.sub_title_line {  text-align: left; margin-top: 10px; margin-bottom: 28px; }
 .section p { text-align: center; }
 .section p.img_content img { margin-top: 60px; }
-
 .section05 { width: 100%;  background-color: #3c4662; }
 .section05 h3 { color:  #fff; }
-
 .section06 { width: 100%;  background-color: #ede9eb;  }
 .section06 dl {  float: left; padding-bottom: 96px; }
 .section .inner { width: 1170px; margin: 0 auto; margin-top: 110px; margin-bottom: 96px; }
@@ -103,5 +99,26 @@ footer {  width: 100%;  line-height: 74px; text-align: center;  background-color
 .section07 .inner  h3 { /*position: relative; left: 50%; margin-left: -120px;*/ margin: 0 auto; text-align: center; color: #fff; width: 240px; padding: 4px 30px;  border-radius: 20px; background-color: #d60050;  }
 .section07 .inner ul { overflow: hidden; width: 50%; margin: 0 auto; margin-top: 40px; }
 .section07 .inner ul li { list-style: none; float: left; margin: 0 auto;  margin-left: 31%;  }
-
 .section07 .inner ul li:first-child { margin-left: 0; }
+
+/*join_page*/
+.join_container { width: 100%; }
+.join_page { width: 680px; margin: 80px auto; background-color: #fff; box-shadow: 1px 1px 2px rgba(34,34,34,0.4); }
+.join_page #joinForm { padding: 60px 40px; }
+    #joinForm table caption { text-align: center; font-size: 22px; color: #656565; font-weight: bold; margin-bottom: 12px; text-decoration: underline;; }
+    #joinForm table tr { border-bottom: 1px solid #eaeaea; margin-top: -1px;  }
+    #joinForm table tr th { text-align: right; padding-right: 12px; color: #565656; line-height: 28px; }
+    #joinForm table tr td input { width: 240px; height: 28px; line-height: 28px; border: 1px solid #cecece; padding-left: 6px;  color: #565656;}
+    #joinForm table tr td select { width: 96px; height: 28px; line-height: 28px; border: 1px solid #cecece; color: #565656; padding-left: 2px;  font-size: 13px;  }
+    #joinForm table tr td button { width: 104px; height: 28px; line-height: 26px; background-color: #7b7b7b; color: #fff; border: 1px solid #656565; font-weight: bold; font-size: 13px; box-sizing: border-box; padding-top: 1px; }
+    #joinForm table tr td button:hover { background-color: #efefef; color: #565656; }
+    #joinForm .agree { overflow: hidden; }
+    #joinForm .agree p { color: #565656; font-size: 14px; } 
+    #joinForm .agree div { float: left; width: 300px; color: #565656; font-size: 13px;  }
+    #joinForm .agree div [type=text]{ width: 286px; height: 104px; margin-left: 8px; font-size: 13px; border: 1px solid #cecece; }
+    #joinForm .agree div [type=checkbox] { width: 14px; height: 14px; margin-left: 8px;  }
+
+    .btn_2ea { width: 336px; margin: 0 auto; margin-top: 50px; }
+    .btn_2ea button { width: 156px; height: 32px; line-height: 30px; color: white; font-weight: bold; margin: 0 4px; }
+    button.regi { background-color: #eba95a; border: 1px solid #c78b42 ; }
+    button.cancel { background-color: #848fa2; border: 1px solid #636f82 ; }

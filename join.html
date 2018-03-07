@@ -19,15 +19,15 @@
 </head>
 
 <body>
-	<div class="">
-		<div class="join_content">
+	<div class="join_container">
+		<div class="join_page">
 			<form id="joinForm">
 				<table class="table table-striped">
+					<caption>회원가입</caption>
 					<tr>
 						<th>사용자 ID</th>
 						<td>
 							<input type="email" name="memberId" /><span id="dupChkResult"></span>
-							<br/>
 							<button type="button" id="memberIdDupChkBtn">중복확인</button>
 						</td>
 					</tr>
@@ -85,18 +85,25 @@
 						<th>연락처</th>
 						<td>
 							<input type="number" name="tel" />
-							<br/>
 							<button type="button">본인인증</button>
 						</td>
 					</tr>
-					<tr>
-						<td colspan="2">
-							<button type="button">가입</button>
-							<button type="button">취소</button>
-						</td>
-					</tr>
 				</table>
-				
+				<div class="agree">
+					<p>▶약관 동의하기</p>
+					<div>
+						<input type="text" name="">
+						<input type="checkbox" name="">동의하기
+					</div>
+					<div>
+						<input type="text" name="">
+						<input type="checkbox" name="">동의하기
+					</div>
+				</div>
+				<div class="btn_2ea">
+					<button type="button" class="regi">가입</button>
+					<button type="button" class="cancel">취소</button>
+				</div>
 				<input type="hidden" id="dupChkValue" value="N" />
 			</form>
 		</div>
