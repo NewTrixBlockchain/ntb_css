@@ -104,6 +104,7 @@ footer {  width: 100%;  line-height: 74px; text-align: center;  background-color
     #joinForm table caption { text-align: center; font-size: 22px; color: #656565; font-weight: bold; margin-bottom: 12px; text-decoration: underline;; }
     #joinForm table tr { border-bottom: 1px solid #eaeaea; margin-top: -1px;  }
     #joinForm table tr th { text-align: right; padding-right: 12px; color: #565656; line-height: 28px; }
+    #joinForm table tr td p { font-size: 13px; }
     #joinForm table tr td input { width: 240px; height: 28px; line-height: 28px; border: 1px solid #cecece; padding-left: 6px;  color: #565656;}
     #joinForm table tr td select { width: 96px; height: 28px; line-height: 28px; border: 1px solid #cecece; color: #565656; padding-left: 2px;  font-size: 13px;  }
     #joinForm table tr td button { width: 104px; height: 28px; line-height: 26px; background-color: #7b7b7b; color: #fff; border: 1px solid #656565; font-weight: bold; font-size: 13px; box-sizing: border-box; padding-top: 1px; }
