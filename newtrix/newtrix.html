@@ -7,13 +7,13 @@
 <meta name="viewport" content="width=device-width" />
 <title>뉴트릭스 블록체인</title>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400i,600,700" rel="stylesheet">
-<link rel="stylesheet" href="/resources/css/normalize.css">
+<link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="/resources/css/main.css">
-<script src="/resources/js/modernizr.custom.min.js"></script>
-<script src="/resources/js/jquery-3.3.1.js"></script>
-<script src="/resources/js/jquery-ui-1.10.4.custom.min.js"></script>
+<link rel="stylesheet" href="css/main.css">
+<script src="js/modernizr.custom.min.js"></script>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <script charset="UTF-8" class="daum_roughmap_loader_script" src="http://dmaps.daum.net/map_js_init/roughmapLoader.js"></script>
 <style type="text/css">
@@ -30,57 +30,64 @@
 </style>
 </head>
 <body>
-    <header>
-        <div class="container">
+
+    <div class="container-fluid" id="header">
+        <div class="container header">
             <div class="row">
-                <div class="logo col-lg-3 col-md-4 col-sm-8 col-xs-8">
+                <div class="logo col-lg-3 col-md-3 col-sm-4 col-xs-8">
                     <h1>
                         <a href="/"><img src="/resources/img/logo_s_NTB.png" alt="NewTrixBlockChian"></a>
                     </h1>
+
                 </div>
-                <div class="main_menu col-lg-8 col-md-8 visible-lg-block visible-md-block hidden-sm hidden-xs">
+                <div class="main_menu col-lg-9 col-md-9 col-sm-8 visible-lg-block visible-md-block visible-sm-block hidden-xs">
                     <ul>
                         <li><a class="scroll" href="#sub01">회사소개</a></li>
                         <li><a class="scroll" href="#sub02">기술소개</a></li>
                         <li><a class="scroll" href="#sub03">contact</a></li>
+                        <li  class="dropdown flag"></a>
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                                <img src="/resources/img/flags/KR.png">
+                                <span class="caret"></span>
+                           </button>
+                           <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img src="/resources/img/flags/US.png">&nbsp;US</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img src="/resources/img/flags/CH.png">&nbsp;Ch</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img src="/resources/img/flags/JP.png">&nbsp;JP</a></li>
+                          </ul>
+                        </li>
                     </ul>
                 </div>
-                <div class="dropdown main_menu_icon col-sm-4 col-xs-4 hidden-lg hidden-md visible-sm visible-xs">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true"> Menu <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                <div class="dropdown main_menu_icon col-xs-4 hidden-lg hidden-md hidden-sm visible-xs">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="true"> <span class="glyphicon glyphicon-menu-hamburger"></span> <span class="caret"></span>
+                    </button> 
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">회사소개</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">기술소개</a></li>
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">contact</a></li>
-                        <!-- <li role="presentation"><a role="menuitem" tabindex="-1" href="#">eng</a></li> -->
                     </ul>
                 </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="container main_text">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h2>
-                    <span>N</span>ewTrix <br>BlockChain
-                </h2>
-                <p>
-                    Management for the New Matrix<br>Industry with BitOn.
-                </p>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid main_img">
-        <div class="row">
+    <div class="main_view">
+        <div class="img">
             <img class="col-lg-12 visible-lg hidden-md hidden-sm hidden-xs" src="/resources/img/main_lg.png">
             <img class="col-md-12 visible-md hidden-lg hidden-sm hidden-xs" src="/resources/img/main_md.png">
             <img class="col-sm-12 visible-sm hidden-lg hidden-md hidden-xs" src="/resources/img/main_sm.png">
             <img class="col-xs-12 visible-xs hidden-lg hidden-md hidden-sm" src="/resources/img/main_xs.png">
         </div>
+        <div class="text">
+            <h2>
+                <span>N</span>ewTrix <br>BlockChain
+            </h2>
+            <p>
+                Management for the New Matrix<br>Industry with BitOn.
+            </p>
+        </div>
     </div>
-    <div id="sub00"></div>
+
     <div class="container sub_depth" id="sub01">
         <div class="row">
             <div class="sub_title">
@@ -88,7 +95,7 @@
                     <span>a</span>bout us.
                 </h2>
             </div>
-            <!-- <hr class="subtitle_line"> -->
+              <hr class="subtitle_line">
             <div class="sub_inner">
                 <p>
                     블록체인기술이 출현한 지 수 년이 흘렀지만, 대부분의 기술은 미국과 유럽 주요국가들이 주도하고 있으며, 아시아에서는
@@ -112,8 +119,12 @@
     <div class="container-fulid sub_depth" id="sub02">
         <div class="container">
             <div class="row">
-                <div class="sub_title"><h2><span>t</span>echnique us.</h2></div>
-                <!-- <hr class="subtitle_line"> -->
+                <div class="sub_title">
+                    <h2>
+                        <span>t</span>echnique us.
+                    </h2>
+                </div>
+                  <hr class="subtitle_line">
                 <div class="sub_inner">
                     <p><img src="/resources/img/Technique.png"></p>
                 </div>
@@ -128,20 +139,19 @@
                     <span>C</span>ontact us.
                 </h2>
             </div>
+             <hr class="subtitle_line">
             <div class="sub_inner">
-                <div class="row justify-content-md-center">
-                    <div class="col col-lg-5">
+                <div class="row"><!--  justify-content-md-center -->
+                    <div class="col-lg-6">
                         <div class="contactContainer">
                             <p class="contact_label">Email</p>
                             <p class="contact_txt" style="font-weight: normal;">newtrixblockchain@gmail.com</p>
                             <p class="contact_txt" style="font-weight: normal;">admin@newtrixblockchain.com</p>
-                            <br/>
                             <p class="contact_label">Phone</p>
                             <p class="contact_txt">02-6929-2500</p>
-                            <br/>
                             <p class="contact_label">Address</p>
                             <p class="contact_txt">서울 서초구 매헌로8길 9 성문빌딩 5층 뉴트릭스블록체인</p>
-                            <!-- 
+                            <!--  생략부분
                             <input type="text" class="form-control" name="name" placeholder="Name *" />
                             <input type="email" class="form-control" name="email" placeholder="E-mail *" />
                             <input type="text" class="form-control" name="subject" placeholder="Subject *" />
@@ -150,7 +160,7 @@
                              -->
                         </div>
                     </div>
-                    <div id="map" class="col col-lg-5" style="height: 300px">
+                    <div id="map" class="col-lg-6" style="height: 300px">
                         <div id="daumRoughmapContainer1521796428472" class="root_daum_roughmap root_daum_roughmap_landing"></div>
                     </div>
                 </div>
@@ -158,7 +168,7 @@
         </div>
     </div>
 
-    <script type="text/javascript">
+<!--     <script type="text/javascript">
         $(function() {
             new daum.roughmap.Lander({
                 "timestamp" : "1521796428472",
@@ -167,6 +177,6 @@
                 "mapHeight" : "300"
             }).render();
         });
-    </script>
+    </script> -->
 </body>
 </html>
