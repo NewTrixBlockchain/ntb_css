@@ -16,7 +16,7 @@ img{ max-width: 100%; border:0;}
 }
 body { line-height: 1em; margin: 0 auto; }
 .container-fluid { padding-left: 0px; padding-right: 0px; }
-.container {  margin-right: 0px;  margin-left: 0px;  }
+.container {  padding-right: 0px;  padding-left: 0px;  }
 .dropdown-menu { font-size: 13px;  }
 .row { margin-left: 0px; margin-right: 0px; }
 p { margin: 0 0 0px; }
