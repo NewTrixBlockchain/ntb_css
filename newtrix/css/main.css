@@ -58,43 +58,43 @@ header { width: 100%;  }
 
 @media screen and (min-width: 1420px) {
 	.main_img { min-width: 1600px; padding-top: 18%;  }
-	#sub01 { padding-top: 26%; }
+	#sub01 { margin-top: 26%; }
 
 }
 
 @media screen and (min-width: 1200px) and (max-width:1419px) {
 	.main_img { min-width: 1400px; padding-top: 25%;  }
-	#sub01 { padding-top: 28%; }
+	#sub01 { margin-top: 28%; }
 }
 @media screen and (min-width: 1100px) and (max-width:1199px) {
 	.main_img {  padding-top: 30%; }
-	#sub01 { padding-top: 34%; }
+	#sub01 { margin-top: 34%; }
 }
 @media screen and (min-width: 992px) and (max-width:1099px) {
 	.main_img {  padding-top: 35%; }
-	#sub01 { padding-top: 34%; }
+	#sub01 { margin-top: 34%; }
 }
 @media screen and (min-width: 900px) and (max-width:991px) {
 	.main_img {  padding-top: 34%; }
-	#sub01 { padding-top: 30%; }
+	#sub01 { margin-top: 30%; }
 }
 @media screen and (min-width: 768px) and (max-width:899px) {
 	.main_img {  padding-top: 36%; }
-	#sub01 { padding-top: 24%; }
+	#sub01 { margin-top: 24%; }
 	.sub_depth h2 {  margin-bottom: 54px; }
 }
 @media screen and (min-width: 640px) and (max-width:767px) {
 	.main_img {  padding-top: 40%; }
 	.main_text h2 { font-size: 64px; }
 	.main_text p { font-size: 31px; }
-	#sub01 { padding-top: 34%; }
+	#sub01 { margin-top: 34%; }
 	.sub_depth h2 {  margin-bottom: 54px; }
 }
 @media screen and (min-width: 480px) and (max-width:639px) {
 	.main_img {  padding-top: 58%; }
 	.main_text h2 { font-size: 68px; }
 	.main_text p { font-size: 31px; }
-	#sub01 { padding-top: 30%; }
+	#sub01 { margin-top: 30%; }
 	.sub_depth h2 {  margin-bottom: 54px; }
 }
 @media screen and (max-width:639px) { 
@@ -104,13 +104,13 @@ header { width: 100%;  }
 	.main_img {  padding-top: 58%; }
 	.main_text h2 { font-size: 68px; }
 	.main_text p { font-size: 31px; }
-	#sub01 { padding-top: 40%; }
+	#sub01 { margin-top: 40%; }
 	.sub_depth h2 {  margin-bottom: 54px; }
 }
 @media screen and (max-width:479px) {
 	.main_img {  padding-top: 68%; }
 	.main_text h2 { font-size: 68px; }
 	.main_text p { font-size: 31px; }
-	#sub01 { padding-top: 20%; }
+	#sub01 { margin-top: 20%; }
 	.sub_depth h2 {  margin-bottom: 54px; }
 }
