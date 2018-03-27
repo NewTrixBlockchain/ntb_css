@@ -34,37 +34,53 @@
     <div class="container-fluid" id="header">
         <div class="container header">
             <div class="row">
-                <div class="logo col-lg-3 col-md-3 col-sm-4 col-xs-8">
+                <div class="logo col-lg-3 col-md-3 col-sm-6 col-xs-8">
                     <h1>
-                        <a href="/"><img src="/resources/img/logo_s_NTB.png" alt="NewTrixBlockChian"></a>
+                        <a href="/"><img class="hidden-xs" src="/resources/img/logo_s_NTB.png" alt="NewTrixBlockChian"></a>
+                        <a href="/"><img class="hidden-lg hidden-md hidden-sm" src="/resources/img/simbol_NTB.png" alt="NewTrixBlockChian"></a>
                     </h1>
-
+                    <div class="dropdown flag hidden-lg hidden-md visible-sm visible-xs">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                            <img src="img/flags/KR.png">
+                            <span class="caret"></span>
+                       </button>
+                       <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img src="/resources/img/flags/US.png">&nbsp;US</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img src="/resources/img/flags/CN.png">&nbsp;CN</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img src="/resources/img/flags/JP.png">&nbsp;JP</a></li>
+                      </ul>
+                    </div>
                 </div>
-                <div class="main_menu col-lg-9 col-md-9 col-sm-8 visible-lg-block visible-md-block visible-sm-block hidden-xs">
+                <div class="main_menu col-lg-9 col-md-9 col-sm-6 visible-lg-block visible-md-block hidden-sm hidden-xs">
                     <ul>
-                        <li><a class="scroll" href="#sub01">회사소개</a></li>
-                        <li><a class="scroll" href="#sub02">기술소개</a></li>
-                        <li><a class="scroll" href="#sub03">contact</a></li>
-                        <li  class="dropdown flag"></a>
+                        <li><a class="" href="">회사소개</a></li>
+                        <li><a class="" href="">사업소개</a></li>
+                        <li><a class="" href="">암호화폐</a></li>
+                        <li><a class="" href="">ICOs</a></li>
+                        <li><a class="" href="">CONTACT</a></li>
+                        <li  class="dropdown flag">
                             <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-                                <img src="/resources/img/flags/KR.png">
+                                <img src="img/flags/KR.png">
                                 <span class="caret"></span>
                            </button>
                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img src="/resources/img/flags/US.png">&nbsp;US</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img src="/resources/img/flags/CH.png">&nbsp;Ch</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img src="/resources/img/flags/CN.png">&nbsp;CN</a></li>
                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><img src="/resources/img/flags/JP.png">&nbsp;JP</a></li>
                           </ul>
                         </li>
                     </ul>
                 </div>
-                <div class="dropdown main_menu_icon col-xs-4 hidden-lg hidden-md hidden-sm visible-xs">
+                
+                <div class="dropdown main_menu_icon col-xs-4 col-sm-4 hidden-lg hidden-md visible-sm visible-xs">
                     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="true"> <span class="glyphicon glyphicon-menu-hamburger"></span> <span class="caret"></span>
                     </button> 
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">회사소개</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">기술소개</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">contact</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">사업소개</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">암호화폐</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ICOs</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
@@ -88,7 +104,7 @@
         </div>
     </div>
 
-    <div class="container sub_depth" id="sub01">
+<!--     <div class="container sub_depth" id="sub01">
         <div class="row">
             <div class="sub_title">
                 <h2>
@@ -126,7 +142,7 @@
                 </div>
                   <hr class="subtitle_line">
                 <div class="sub_inner">
-                    <p><img src="/resources/img/Technique.png"></p>
+                    <p><img src="img/Technique.png"></p>
                 </div>
             </div>
         </div>
@@ -141,7 +157,7 @@
             </div>
              <hr class="subtitle_line">
             <div class="sub_inner">
-                <div class="row"><!--  justify-content-md-center -->
+                <div class="row">
                     <div class="col-lg-6">
                         <div class="contactContainer">
                             <p class="contact_label">Email</p>
@@ -151,13 +167,6 @@
                             <p class="contact_txt">02-6929-2500</p>
                             <p class="contact_label">Address</p>
                             <p class="contact_txt">서울 서초구 매헌로8길 9 성문빌딩 5층 뉴트릭스블록체인</p>
-                            <!--  생략부분
-                            <input type="text" class="form-control" name="name" placeholder="Name *" />
-                            <input type="email" class="form-control" name="email" placeholder="E-mail *" />
-                            <input type="text" class="form-control" name="subject" placeholder="Subject *" />
-                            <textarea class="form-control contact_txtarea" name="content" placeholder="Content *"></textarea>
-                            <button type="button" class="btn" id="emailSendBtn" style="border: 1px solid #e5e5e5; width: 100%; padding: 1px; margin: 1px">SEND</button>
-                             -->
                         </div>
                     </div>
                     <div id="map" class="col-lg-6" style="height: 300px">
@@ -168,7 +177,7 @@
         </div>
     </div>
 
-<!--     <script type="text/javascript">
+    <script type="text/javascript">
         $(function() {
             new daum.roughmap.Lander({
                 "timestamp" : "1521796428472",
