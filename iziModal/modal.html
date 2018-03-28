@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/iziModal.js"></script>
+		<link rel="stylesheet" href="css/iziModal.css" />
+	</head>
+	<body>
+		<div id="modal"></div>
+		<div>
+			<input type="text" id="modalTitle" placeholder="MODAL TITLE">
+		</div>
+		<div>
+			<input type="text" id="modalSubtitle" placeholder="MODAL SUBTITLE">
+		</div>
+		<div>
+			<input type="text" id="modalContent" placeholder="MODAL CONTENT">
+		</div>
+		<div>
+			<button type="button" id="modalShowBtn">SHOW</button>
+		</div>
+
+		<script type="text/javascript">
+			$(function() {
+				$("#modal").iziModal();
+				var show = function() {
+					$("#modal").iziModal('setTitle', $("#modalTitle").val());
+					$("#modal").iziModal('setSubtitle', $("#modalSubtitle").val());
+					$("#modal").iziModal('setContent', $("#modalContent").val());
+					$("#modal").iziModal('open');
+				}
+
+				$("#modalShowBtn").click(show);
+			});
+		</script>
+	</body>
+</html>
