@@ -133,3 +133,11 @@ p { margin: 0 0 0px; }
 	.main_menu_icon .dropdown-menu > li > a {  font-size: 18px; padding: 14px 20px; }
 	.logo .flag {  }
 }
+
+.table_form { margin-top: 25px; padding-left: 15px; padding-right: 15px; }
+.table_form table thead tr { background-color: #f9f6f3; }
+.table_form table tr th, .table_form table tr td { text-align: center; }
+.table_form .page-ind p { text-align: center;  margin-top: 40px; }
+.table_form .page-ind p span { margin: 0 12px; color:  #4b4b4b; font-weight: 400; }
+.table_form table tfoot tr { font-weight: bold; background-color: #eaeaea;  }
+.table_form table tfoot tr td:first-child { text-transform: uppercase; }
