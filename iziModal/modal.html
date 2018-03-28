@@ -9,6 +9,9 @@
 	<body>
 		<div id="modal"></div>
 		<div>
+			<input type="text" id="modalHeader" placeholder="HEADER COLOR">
+		</div>
+		<div>
 			<input type="text" id="modalTitle" placeholder="MODAL TITLE">
 		</div>
 		<div>
@@ -25,6 +28,7 @@
 			$(function() {
 				$("#modal").iziModal();
 				var show = function() {
+					$("#modal").iziModal('setHeaderColor', $("#modalHeader").val());
 					$("#modal").iziModal('setTitle', $("#modalTitle").val());
 					$("#modal").iziModal('setSubtitle', $("#modalSubtitle").val());
 					$("#modal").iziModal('setContent', $("#modalContent").val());
