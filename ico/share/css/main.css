@@ -182,16 +182,24 @@ footer {  width: 100%;  line-height: 74px; text-align: center;  background-color
     .my_content hr.full_line { width: 100%; border: 1px solid #dadada; border-bottom: none; }
     .my_content .statement .inner div {  margin-bottom: 16px;  }
     .my_content .statement .inner hr.width_100 { margin-bottom: 45px; }
+    .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td { padding: 0; height: 34px; line-height: 34px; vertical-align: middle; }
     .statement_table { margin-top: 25px; padding-left: 15px; padding-right: 15px; width: 100%; display: block; overflow-x: auto; }
-    .statement_tabel table { min-width: 800px; }
+    .statement_tabel table { min-width: 800px;  }
+    .statement_tabel table tr { line-height: 32px; }
     .statement_table table thead tr { background-color: #f9f6f3; }
-    .statement_table table tr th, .table_form table tr td { text-align: center; font-size: 13px; }
-    .statement_table p.page-ind  { text-align: left;  margin-top: 0px; margin-left: 20px; }
+    .statement_table table tr th, .statement_table table tr td { text-align: center; font-size: 13px; }
+    .statement_table p.page-ind  { text-align: left;  margin-top: 0px; margin-left: 20px; line-height: 36px; }
     .statement_table p.page-ind  span { margin: 0 8px; }
     .statement_table p.page-ind  span a { color: #4b4b4b; font-weight: 400; font-size: 13px; }
     .statement_table table tbody tr.total { font-weight: bold; background-color: #eaeaea;  }
     .statement_table table tbody tr.total td:first-child { text-transform: uppercase;  }
-    .statement_table table thead tr:first-child{ background: #fff; }
-     .my_account .inner .statement_table table thead select { height: 28px; width: 150px; line-height: 28px;  border-radius: 2px; text-align: right;  align-items: center;  }
+    .statement_table table thead tr:first-child { background: #fff;  }
+    .statement_table table thead tr:first-child th {  height: 36px; line-height: 36px; }
+    .statement_table table thead tr:first-child td {  height: 36px; line-height: 36px; }
+     .my_account .inner .statement_table table thead select { height: 28px; width: 136px; line-height: 28px;  border-radius: 2px; text-align: right;  align-items: center; margin-right: 14px }
      .my_account .inner .statement_table table thead tr td { border: 0px; }
      .my_account .inner .statement_table table thead tr:first-child td:last-child { text-align: right;  }
+     .my_account .inner .statement_table table tbody tr td span { margin: 0 auto; }
+        .trade_request { width: 86px; height: 24px;  display:block; line-height: 22px; background-color: #9c9c9c; border: 1px solid #7b7b7b; font-weight: bold; text-align: center; border-radius: 4px; color: white;  }
+        .trade_approval { width: 86px; height: 24px; display:block; line-height: 22px; background-color: #5cb85c; border: 1px solid #58a258; font-weight: bold; text-align: center; border-radius: 4px; color: white;  }
+        .trade_refusal { width: 86px; height: 24px; display:block; line-height: 22px; background-color: #e64c4c; border: 1px solid #d14b4b; font-weight: bold; text-align: center; border-radius: 4px; color: white;  }
